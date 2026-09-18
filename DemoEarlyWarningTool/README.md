@@ -1,6 +1,6 @@
 # Asynchronous Activity 2 Student Early Warning Tool Using KNIME
 
-This repository contains the required output for Asynchronous Activity 2. The KNIME workflow predicts whether a student is **At Risk** or **On Track** using academic performance and engagement data.
+This repository contains the required output for Asynchronous Activity 2. The KNIME workflow predicts whether a student is **At Risk** or **Not At Risk** using academic performance data.
 
 ## Files
 
@@ -16,7 +16,7 @@ This repository contains the required output for Asynchronous Activity 2. The KN
 
 ## Dataset Fields
 
-The dataset contains attendance rate, assignment average, quiz average, exam average, weekly study hours, late submissions, absences, engagement score, and the `risk_status` target.
+The dataset contains student ID, attendance, quiz score, assignment score, exam score, and the `risk_status` target.
 
 ## How to Run
 
